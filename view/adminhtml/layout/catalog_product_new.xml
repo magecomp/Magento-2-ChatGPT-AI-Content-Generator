@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="page.content">
+            <block name="catalog.product.content-ai.helper"
+                   class="Magecomp\Chatgptaicontent\Block\Adminhtml\Product\Helper"
+                   before="page_main_actions"
+                   template="Magecomp_Chatgptaicontent::product/helper.phtml" />
+        </referenceContainer>
+    </body>
+</page>

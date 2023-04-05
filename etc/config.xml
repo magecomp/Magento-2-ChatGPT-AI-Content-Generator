@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <magecomp_chatgptaicontent>
+            <general>
+                <enabled>0</enabled>
+                <stores>0</stores>
+            </general>
+            <api>
+                <base_url>https://api.openai.com</base_url>
+                <token backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+            </api>
+        </magecomp_chatgptaicontent>
+    </default>
+</config>

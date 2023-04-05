@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="magecomp" translate="label" sortOrder="100" class="magecomp-logo">
+            <label><![CDATA[]]></label>
+        </tab>
+        <section id="magecomp_chatgptaicontent" translate="label" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+            <tab>magecomp</tab>
+            <label>ChatGPT AI Content Generator</label>
+            <resource>Magecomp_Chatgptaicontent::magecomp_chatgptaicontent</resource>
+            <group id="general" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="enabled" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>ChatGPT AI Content Generator</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+            </group>
+            <group id="api" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>API Configuration</label>
+                <field id="base_url" translate="label" type="text" sortOrder="0" showInDefault="1" showInStore="1" showInWebsite="1" canRestore="1">
+                    <label>Base URL</label>
+                </field>
+                <field id="token" translate="label" type="obscure" sortOrder="10" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>API Key</label>
+                    <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

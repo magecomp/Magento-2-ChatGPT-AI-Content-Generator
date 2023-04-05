@@ -1,0 +1,86 @@
+.block-magecomp-ai.block {
+    border: 1px solid #bbbbbb;
+    margin-bottom: 4rem;
+    position: relative;
+    z-index: 1;
+    .block-title {
+        background: #f8f8f8;
+        padding: 2rem 2.5rem;
+        .title {
+            font-size: 2rem;
+            font-weight: 200;
+        }
+        &:after {
+            clear: both;
+        }
+    }
+    .block-status {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 8px;
+        .img {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+        }
+        .ok {
+            background: url(../Magecomp_Chatgptaicontent/images/check_mark_32.png) no-repeat 0 0;
+            background-size: contain;
+        }
+        .fail {
+            background: url(../Magecomp_Chatgptaicontent/images/cross_mark_32.png) no-repeat 0 0;
+            background-size: contain;
+        }
+    }
+    ul {
+        line-height: 2.5rem;
+    }
+    li.issue {
+        list-style-type: square;
+    }
+    ul.issues-list {
+        list-style: none inside none;
+        .scope-title {
+            font-weight: bold;
+        }
+    }
+    .magecomp-ai-messages {
+        padding: 1rem 2.5rem;
+    }
+    a.show-all {
+        cursor: pointer;
+    }
+}
+.magecomp-ai-text-column.data-grid-cell-content {
+    & {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &.magecomp-ai-notext {
+        justify-content: space-around;
+    }
+    .magecomp-ai-text-column-value, .magecomp-ai-mark {
+        display: flex;
+    }
+    .magecomp-ai-mark {
+        min-width: 32px;
+        height: 32px;
+        margin-right: 5px;
+    }
+    .magecomp-ai-checkmark {
+        background: url(../Magecomp_Chatgptaicontent/images/check_mark_32.png) no-repeat 0 0;
+    }
+    .magecomp-ai-crossmark {
+        background: url(../Magecomp_Chatgptaicontent/images/cross_mark_32.png) no-repeat 0 0;
+    }
+}
+.admin__field.magecomp-ai-field {
+    margin-top: -25px;
+    min-width: 140px;
+}
+.fieldset-wrapper.magecomp-ai-fieldset {
+    .magecomp-ai-control-label {
+        line-height: 3.3rem;
+    }
+}

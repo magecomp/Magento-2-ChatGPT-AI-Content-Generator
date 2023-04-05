@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <component component="Magecomp_Chatgptaicontent/js/magecomp-ai" name="magecomp-ai" class="Magecomp\Chatgptaicontent\Ui\Generator">
+        <argument name="data" xsi:type="array">
+            <item name="completion_config" xsi:type="object">Magecomp\Chatgptaicontent\Model\CompletionConfig</item>
+        </argument>
+    </component>
+</form>

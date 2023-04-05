@@ -1,0 +1,20 @@
+<?php
+/** @var \Magecomp\Chatgptaicontent\Block\Adminhtml\Product\Helper $block */
+/** @var \Magento\Framework\Escaper $escaper */
+?>
+
+<div data-bind="scope: 'magecomp-ai-product-helper'" class="magecomp-ai-product-helper">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+<input type="hidden" id="openai_url" name="openai_url" value="<?php echo $block->getUrl('magecomp_chatgptaicontent/generate/index')?>">
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "magecomp-ai-product-helper": <?= /* @noEscape */ $block->getComponentJsonConfig() ?>
+                }
+            }
+        }
+    }
+</script>
