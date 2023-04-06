@@ -1,7 +1,7 @@
 # Magento 2 ChatGPT AI Content Generator
-MageComp's Magento 2 ChatGPT AI Content Generator module generates compelling & creative page titles, Meta descriptions & a bunch of related keywords for your Magento 2 store.
-
 <img src="https://magecomp.com/media/catalog/product/cache/9060bf895541631e29635713a6168783/c/h/chatgpt_ai_content_generator-product_image.webp">
+
+MageComp's Magento 2 ChatGPT AI Content Generator module generates compelling & creative page titles, Meta descriptions & a bunch of related keywords for your Magento 2 store.
 
 <a href="https://magecomp.com/magento-2-chatgpt-ai-content-generator.html" target="_blank"><img width="150" height="46" src="https://magecomp.com/media/button.webp"></a>
 
@@ -19,7 +19,7 @@ MageComp's Magento 2 ChatGPT AI Content Generator module generates compelling & 
 
 # Installing via Composer
 <img src="https://i.ibb.co/NjGRFCt/composer.png">
-Specify project dependencies using a JSON file & leave everything to Composer.
+* Specify project dependencies using a JSON file & leave everything to Composer.
 
 
 
