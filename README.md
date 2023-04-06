@@ -15,7 +15,7 @@ MageComp's Magento 2 ChatGPT AI Content Generator module generates compelling & 
 * It creates unique content.
 
 # What about the pricing?
-* It's completely **FREE of charge**.
+* It's completely **FREE OF CHARGE**.
 
 # Installing via Composer
 <img src="https://i.ibb.co/NjGRFCt/composer.png">
