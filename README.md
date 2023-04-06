@@ -73,7 +73,7 @@ API Key of OpenAI is used for generating high-quality content. Configure the API
 <img src="https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/f/r/frontend_product_page_source_to_view_ai-curated_product_metadata.webp">
 
 # Support
-In case of any queries about our extensions or services, feel free to write to us at our [Support Portal](https://magecomp.com/support/).
+Write to us at our [Support Portal](https://magecomp.com/support/) for queries about our Magento 2 extensions or services.
 
 # Contact Us
 **MageComp**
