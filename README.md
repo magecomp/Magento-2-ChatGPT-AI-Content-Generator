@@ -54,6 +54,14 @@ API Key of OpenAI is used for generating high-quality content. Configure the API
 
 <img src="https://magecomp.com/media/wysiwyg/Utilizes_OpenAI_API_to_produce_AI_content.webp">
 
+# Let's Check How It Works
+
+1: Set it to **Enable**. Specify **Base URL** & **API Key**.
+
+<img src="https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/c/o/configuration_settings_for_magento_2_chatgpt_ai_content_generator_1.webp">
+
+
+
 
 
 
