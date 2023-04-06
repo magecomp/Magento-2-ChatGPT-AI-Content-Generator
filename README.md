@@ -60,9 +60,17 @@ API Key of OpenAI is used for generating high-quality content. Configure the API
 
 <img src="https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/c/o/configuration_settings_for_magento_2_chatgpt_ai_content_generator_1.webp">
 
+2: Enter just keywords for page titles, Meta descriptions & keywords & hit **Content AI** button.
 
+<img src="https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/a/i/ai-powered_meta_title_meta_keywords_and_meta_description_for_the_product.webp">
 
+3: Check the change reflected. The page title is the one that you set from the backend.
 
+<img src="https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/f/r/frontend_display_of_ai-driven_meta_title.webp">
+
+4: View page source & confirm Meta description & keywords.
+
+<img src="https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/f/r/frontend_product_page_source_to_view_ai-curated_product_metadata.webp">
 
 
 
