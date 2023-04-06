@@ -48,6 +48,12 @@ Stop spending the time writing lengthy page titles, Meta descriptions & keywords
 
 <img src="https://magecomp.com/media/wysiwyg/Eliminate_manual_input_of_product_metadata_1.gif">
 
+* **OpenAI API Key for Content Generation**
+
+API Key of OpenAI is used for generating high-quality content. Configure the API by setting **Base URL** & **API key** and start leveraging the module.
+
+<img src="https://magecomp.com/media/wysiwyg/Utilizes_OpenAI_API_to_produce_AI_content.webp">
+
 
 
 
