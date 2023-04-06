@@ -43,7 +43,9 @@ Specify project dependencies using a JSON file & leave everything to Composer.
 
 # Features
 * **Say "No" to manual Metadata creation**
+
 Stop spending the time writing lengthy page titles, Meta descriptions & keywords.Just enter the keyword & click on **Content AI** button & see the miracle.
+
 <img src="https://magecomp.com/media/wysiwyg/Eliminate_manual_input_of_product_metadata_1.gif">
 
 
