@@ -9,17 +9,20 @@ MageComp's Magento 2 ChatGPT AI Content Generator module generates compelling & 
 <img width="600" height="350" src="https://s10.gifyu.com/images/Utilizes_OpenAI_API_to_produce_AI_content-1.gif">
 
 # Unique offerings
+* It composes metadata in one go
+* It allows to revise the content according to our needs
+* It saves your time
+* It creates unique content
+
+# Direct benefits
 * Content generation with 1-2 seconds
 * High quality content
 * SEO-friendly content
 * Usage of OpenAI API
 
-# Benefits
-* It composes metadata in one go.
-* It utilizes OpenAI API for creating content.
-* It allows to revise the content according to our needs.
-* It saves your time.
-* It creates unique content.
+# Indirect benefits
+* High rankings on search engines
+* More traffic to website
 
 # What about the pricing?
 * It's completely **FREE OF CHARGE**.
