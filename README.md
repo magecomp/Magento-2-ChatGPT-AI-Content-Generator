@@ -42,13 +42,13 @@ We're always interested in growing mutually by inviting developers & motivating 
 Specify project dependencies using a JSON file & leave everything to Composer.
 
 # Features
-* **Say "No" to manual Metadata creation**
+**Say "No" to manual Metadata creation**
 
 Stop spending the time writing lengthy page titles, Meta descriptions & keywords.Just enter the keyword & click on **Content AI** button & see the miracle.
 
 <img src="https://magecomp.com/media/wysiwyg/Eliminate_manual_input_of_product_metadata_1.gif">
 
-* **OpenAI API Key for Content Generation**
+**OpenAI API Key for Content Generation**
 
 API Key of OpenAI is used for generating high-quality content. Configure the API by setting **Base URL** & **API key** and start leveraging the module.
 
