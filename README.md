@@ -8,6 +8,13 @@ MageComp's Magento 2 ChatGPT AI Content Generator module generates compelling & 
 # 🤩 Wonderful! See, how easily all things get DONE!
 <img width="600" height="350" src="https://s10.gifyu.com/images/Utilizes_OpenAI_API_to_produce_AI_content-1.gif">
 
+# Contribute & explore your coding skill
+We're always interested in growing mutually by inviting developers & motivating them to contribute to our Magento 2 ChatGPT AI Content Generator module. Be ready to hit your keyboard keys & get listed today!
+
+<a href="https://github.com/magecomp/Magento-2-ChatGPT-AI-Content-Generator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=magecomp/Magento-2-ChatGPT-AI-Content-Generator" />
+</a>
+
 # Unique offerings
 * It composes metadata in one go
 * It allows to revise the content according to our needs
@@ -26,6 +33,9 @@ MageComp's Magento 2 ChatGPT AI Content Generator module generates compelling & 
 
 # What about the pricing?
 * It's completely **FREE OF CHARGE**.
+
+# Compatibility with Magento Versions
+* Magento 2.4.X (CE, EE, ECE)
 
 # Installing via Composer
 <img src="https://i.ibb.co/NjGRFCt/composer.png">
