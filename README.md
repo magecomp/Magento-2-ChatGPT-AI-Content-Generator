@@ -84,8 +84,8 @@ In case of any queries about our extensions or services, feel free to write to u
 
 **Representative office:** 9 Sunbird Crescent, Scarborough M1V3M6 (Canada)
 
-Phone: +91 79902 50277
+**Phone:** +91 79902 50277
 
-Email: [support@magecomp.com](mailto:support@magecomp.com)
+**Email:** [support@magecomp.com](mailto:support@magecomp.com)
 
 <img src="https://magecomp.com/media/logo/websites/1/Magecomp_Logo_251x51.png">
