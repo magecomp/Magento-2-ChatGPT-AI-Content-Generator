@@ -19,8 +19,7 @@ MageComp's Magento 2 ChatGPT AI Content Generator module generates compelling & 
 
 # Installing via Composer
 <img src="https://i.ibb.co/NjGRFCt/composer.png">
-
-* Specify project dependencies using a JSON file & leave everything to Composer.
+Specify project dependencies using a JSON file & leave everything to Composer.
 
 
 
