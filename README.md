@@ -5,7 +5,7 @@ MageComp's Magento 2 ChatGPT AI Content Generator module generates compelling & 
 
 <a href="https://magecomp.com/magento-2-chatgpt-ai-content-generator.html" target="_blank"><img width="150" height="46" src="https://magecomp.com/media/button.webp"></a>
 
-# Wonderful! See, how easily all things get DONE!
+# 🤩 Wonderful! See, how easily all things get DONE!
 <img width="600" height="350" src="https://s10.gifyu.com/images/Utilizes_OpenAI_API_to_produce_AI_content-1.gif">
 
 # Unique offerings
