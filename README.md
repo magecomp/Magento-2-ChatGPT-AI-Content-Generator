@@ -76,7 +76,8 @@ API Key of OpenAI is used for generating high-quality content. Configure the API
 In case of any queries about our extensions or services, feel free to write to us at our [Support Portal](https://magecomp.com/support/).
 
 # Contact Us
-## MageComp
+**MageComp**
+
 **Head Quarters:** 304-305, Eva Surbhi Complex, Waghawadi Road, Bhavnagar, Gujarat (India)
 
 **Branch:** 502, Shivalik Shilp, Iscon cross Road, SG Highway, Ahmedabad, Gujarat (India)
