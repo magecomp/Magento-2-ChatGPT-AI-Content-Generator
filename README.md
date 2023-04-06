@@ -75,20 +75,16 @@ API Key of OpenAI is used for generating high-quality content. Configure the API
 # Support
 In case of any queries about our extensions or services, feel free to write to us at our [Support Portal](https://magecomp.com/support/).
 
-# Contact us
+# Contact Us
+## MageComp
+**Head Quarters:** 304-305, Eva Surbhi Complex, Waghawadi Road, Bhavnagar, Gujarat (India)
+
+**Branch:** 502, Shivalik Shilp, Iscon cross Road, SG Highway, Ahmedabad, Gujarat (India)
+
+**Representative office:** 9 Sunbird Crescent, Scarborough M1V3M6 (Canada)
+
 Phone: +91 79902 50277
+
 Email: [support@magecomp.com](mailto:support@magecomp.com)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="https://magecomp.com/media/logo/websites/1/Magecomp_Logo_251x51.png">
