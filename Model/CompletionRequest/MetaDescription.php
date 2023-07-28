@@ -3,6 +3,7 @@
 namespace Magecomp\Chatgptaicontent\Model\CompletionRequest;
 
 use Magecomp\Chatgptaicontent\Api\CompletionRequestInterface;
+use Magecomp\Chatgptaicontent\Model\Config;
 
 class MetaDescription extends AbstractCompletion implements CompletionRequestInterface
 {
@@ -23,14 +24,30 @@ class MetaDescription extends AbstractCompletion implements CompletionRequestInt
     public function getApiPayload(string $text): array
     {
         parent::validateRequest($text);
-        return [
-            "model" => "text-davinci-003",
-            "prompt" => sprintf("Create a HTML meta description (short as possible) from the following product:\n%s", $text),
+        $model = $this->scopeConfig->getValue(Config::XML_PATH_MODEL);
+        $payload =  [
+            "model" => $model,
             "n" => 1,
             "temperature" => 0.5,
             "max_tokens" => 255,
             "frequency_penalty" => 0,
             "presence_penalty" => 0
         ];
+        $metaDescPrompt = $this->scopeConfig->getValue(Config::XML_PATH_PROMPT_META_DESCRIPTION);
+        if (strpos($model, 'gpt') !== false) {
+            $payload['messages'] = array(
+                array(
+                    'role' => 'system',
+                    'content' => 'You are a helpful assistant.',
+                ),
+                array(
+                    'role' => 'user',
+                    'content' => sprintf($metaDescPrompt, $text),
+                ),
+            );
+        } else {
+            $payload['prompt'] = sprintf($metaDescPrompt, $text);
+        }
+        return $payload;
     }
 }

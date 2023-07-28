@@ -9,7 +9,12 @@ class Config
     public const XML_PATH_ENABLED = 'magecomp_chatgptaicontent/general/enabled';
     public const XML_PATH_BASE_URL = 'magecomp_chatgptaicontent/api/base_url';
     public const XML_PATH_TOKEN = 'magecomp_chatgptaicontent/api/token';
+    public const XML_PATH_MODEL = 'magecomp_chatgptaicontent/api/model';
     public const XML_PATH_STORES = 'magecomp_chatgptaicontent/general/stores';
+    public const XML_PATH_PROMPT_META_TITLE = 'magecomp_chatgptaicontent/prompt/meta_title';
+    public const XML_PATH_PROMPT_META_DESCRIPTION = 'magecomp_chatgptaicontent/prompt/meta_description';
+    public const XML_PATH_PROMPT_META_KEYWORDS = 'magecomp_chatgptaicontent/prompt/meta_keywords';
+
     private ScopeConfigInterface $scopeConfig;
 
     public function __construct(ScopeConfigInterface $scopeConfig)

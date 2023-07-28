@@ -4,6 +4,7 @@
 namespace Magecomp\Chatgptaicontent\Model\CompletionRequest;
 
 use Magecomp\Chatgptaicontent\Api\CompletionRequestInterface;
+use Magecomp\Chatgptaicontent\Model\Config;
 
 class MetaKeywords extends AbstractCompletion implements CompletionRequestInterface
 {
@@ -24,14 +25,30 @@ class MetaKeywords extends AbstractCompletion implements CompletionRequestInterf
     public function getApiPayload(string $text): array
     {
         parent::validateRequest($text);
-        return [
-            "model" => "text-davinci-003",
-            "prompt" => sprintf("Create HTML meta keywords (only content) of the following product:\n%s", $text),
+        $model = $this->scopeConfig->getValue(Config::XML_PATH_MODEL);
+        $payload =  [
+            "model" => $model,
             "n" => 1,
             "temperature" => 0.5,
             "max_tokens" => 100,
             "frequency_penalty" => 0,
             "presence_penalty" => 0
         ];
+        $metaKeyPrompt = $this->scopeConfig->getValue(Config::XML_PATH_PROMPT_META_KEYWORDS);
+        if (strpos($model, 'gpt') !== false) {
+            $payload['messages'] = array(
+                array(
+                    'role' => 'system',
+                    'content' => 'You are a helpful assistant.',
+                ),
+                array(
+                    'role' => 'user',
+                    'content' => sprintf($metaKeyPrompt, $text),
+                ),
+            );
+        } else {
+            $payload['prompt'] = sprintf($metaKeyPrompt, $text);
+        }
+        return $payload;
     }
 }
