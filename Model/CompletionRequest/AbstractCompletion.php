@@ -57,8 +57,15 @@ abstract class AbstractCompletion
             Normalizer::htmlToPlainText($prompt)
         );
 
+        $model = $this->scopeConfig->getValue(Config::XML_PATH_MODEL);
+        if (strpos($model, 'gpt') !== false) {
+            $endpoint = '/v1/chat/completions';
+        } else {
+            $endpoint = '/v1/completions';
+        }
+
         $result = $this->getClient()->post(
-            '/v1/completions',
+            $endpoint,
             $payload
         );
 
@@ -114,6 +121,9 @@ abstract class AbstractCompletion
         $text = trim($text);
         $text = trim($text, '"');
 
+        if (empty($text)) {
+            $text = $textData['message']['content'] ?? '';
+        }
         if (substr($text, 0, strlen(static::CUT_RESULT_PREFIX)) == static::CUT_RESULT_PREFIX) {
             $text = substr($text, strlen(static::CUT_RESULT_PREFIX));
         }

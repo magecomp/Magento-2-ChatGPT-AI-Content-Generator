@@ -9,7 +9,14 @@
             <api>
                 <base_url>https://api.openai.com</base_url>
                 <token backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+                <endpoint>/v1/chat/completions</endpoint>
+                <model>gpt-3.5-turbo</model>
             </api>
+            <prompt>
+                <meta_title><![CDATA[Create meta title (only content) of the following product:\n%s]]></meta_title>
+                <meta_description><![CDATA[Create a meta description (short as possible) from the following product:\n%s]]></meta_description>
+                <meta_keywords><![CDATA[Create meta keywords (only content) of the following product:\n%s]]></meta_keywords>
+            </prompt>
         </magecomp_chatgptaicontent>
     </default>
 </config>

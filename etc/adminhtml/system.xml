@@ -25,6 +25,23 @@
                     <label>API Key</label>
                     <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
                 </field>
+                <field id="model" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Model</label>
+                    <comment><![CDATA[<a href="https://platform.openai.com/docs/models/model-endpoint-compatibility" target="_blank">https://platform.openai.com/docs/models/model-endpoint-compatibility</a>]]></comment>
+                    <source_model>Magecomp\Chatgptaicontent\Model\Config\Source\Model</source_model>
+                </field>
+            </group>
+            <group id="prompt" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Prompt Configuration</label>
+                <field id="meta_title" translate="label" type="text" sortOrder="0" showInDefault="1" showInStore="1" showInWebsite="1" canRestore="1">
+                    <label>Meta Title</label>
+                </field>
+                <field id="meta_description" translate="label" type="text" sortOrder="10" showInDefault="1" showInStore="1" showInWebsite="1" canRestore="1">
+                    <label>Meta Description</label>
+                </field>
+                <field id="meta_keywords" translate="label" type="text" sortOrder="20" showInDefault="1" showInStore="1" showInWebsite="1" canRestore="1">
+                    <label>Meta Keywords</label>
+                </field>
             </group>
         </section>
     </system>
