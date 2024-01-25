@@ -80,7 +80,7 @@ Write to us at our [Support Portal](https://magecomp.com/support/) for queries a
 
 **Head Quarters:** 304-305, Eva Surbhi Complex, Waghawadi Road, Bhavnagar, Gujarat (India)
 
-**Branch:** 502, Shivalik Shilp, Iscon cross Road, SG Highway, Ahmedabad, Gujarat (India)
+**Branch:** 1212, Shilp Zaveri, Shyamal Cross Road, Satellite, Ahmedabad, Gujarat, India.
 
 **Representative office:** 9 Sunbird Crescent, Scarborough M1V3M6 (Canada)
 
